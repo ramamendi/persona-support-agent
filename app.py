@@ -21,6 +21,9 @@ st.set_page_config(
 if "rag" not in st.session_state:
     st.session_state.rag = LocalRAGPipeline()
 
+    if st.session_state.rag.collection.count() == 0:
+        st.session_state.rag.ingest_all("data")
+
 # Sidebar
 with st.sidebar:
     st.header("System Status")
