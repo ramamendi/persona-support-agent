@@ -1,0 +1,14 @@
+Account Management
+
+Users can update:
+
+* Name
+* Email
+* Notification Preferences
+
+Users cannot:
+
+* Change account ownership
+* Transfer subscriptions
+
+Account deletion requests require identity verification.

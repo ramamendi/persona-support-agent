@@ -1,0 +1,11 @@
+Billing Policy
+
+Invoices are generated on the first day of each billing cycle.
+
+Customers can download invoices from the Billing Dashboard.
+
+Payments are processed automatically using the default payment method.
+
+Failed payments trigger three retry attempts over seven days.
+
+Accounts with unpaid invoices exceeding 30 days may be suspended.
